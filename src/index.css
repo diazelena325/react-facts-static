@@ -45,7 +45,7 @@ nav.dark {
 }
 
 .nav--logo_text {
-	color: #61dafb;
+	color: #f636a9;
 	margin-right: auto;
 }
 
@@ -116,16 +116,18 @@ nav.dark .toggler--slider {
 /* MAIN styles */
 main {
 	padding: 57px 27px;
-	background-image: url("./images/react-icon-light.png");
+	background-image: url("./images/star_light.png");
 	background-repeat: no-repeat;
-	background-position: right center;
+	background-position: right bottom;
+	background-size: 40vw;
 	flex: 1 1 auto;
 	background-color: white;
 	color: #2b283a;
 }
 
 main.dark {
-	background-image: url("./images/react-icon-dark.png");
+	background-image: url("./images/star_dark.png");
+
 	background-color: #282d35;
 	color: white;
 }
@@ -148,5 +150,5 @@ main.dark {
 
 .main--facts > li::marker {
 	font-size: 1.4rem;
-	color: #61dafb;
+	color: #f636a9;
 }
