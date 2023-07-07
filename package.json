@@ -14,7 +14,7 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"build": "react-scripts build",
+		"build": "react-scripts build && XCOPY C:\\Users\\Projects\\Desktop\\SCRIMBA\\React\\staticPage\\react-facts-static\\build\\* C:\\Prod\\elenafacts_prod /s /y && RMDIR /s /q C:\\Users\\Projects\\Desktop\\SCRIMBA\\React\\staticPage\\react-facts-static\\build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
