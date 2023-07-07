@@ -4,8 +4,10 @@ import logo from "../images/Self-Portrait.png";
 export default function Navbar(props) {
 	return (
 		<nav className={props.darkMode ? "dark" : ""}>
-			<img className="nav--logo_icon" src={logo} alt="React logo" />
-			<h3 className="nav--logo_text">Elena_Facts</h3>
+			<div className="pad_left logodiv">
+				<img className="nav--logo_icon" src={logo} alt="React logo" />
+				<h3 className="nav--logo_text">Elena_Facts</h3>
+			</div>
 
 			<div className="toggler">
 				<p className="toggler--light">Light</p>

@@ -17,11 +17,20 @@ body {
 	font-family: "Inter", sans-serif;
 }
 
+.pad_left {
+	padding-left: 10vw;
+}
+
+.logodiv {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	align-items: center;
+}
 .container {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
-	padding-left: 10vw;
 }
 
 /* NAV styles */
@@ -29,6 +38,7 @@ body {
 nav {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	background-color: #ffffff;
 	padding: 30px 25px;
 	height: 60px;
